@@ -8,10 +8,14 @@ public:
 	int y;
 	bool InMouth = false;
 	bool InBed = false;
+	int timeInBed = 0;
 	int frame;
 	int frameN;
 	int vx;
 	int vy;
+	int vxRunAway;
+	int vyRunAway;
+	int RunAwayTime;
 	bool facesLeft = true;
 	int mainR = 189;
 	int mainG = 189;

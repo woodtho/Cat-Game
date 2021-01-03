@@ -42,7 +42,8 @@ private:
 	void DrawIntro();
 	void DrawGameOver();
 	void DrawCat(int x, int y, bool facesLeft, int frame);
-	void DrawKitten(int x, int y, int direction);
+	void DrawKitten(int x, int y, bool facesLeft,
+		int mainR, int mainG, int mainB, int accentR, int accentG, int accentB);
 	void DrawBox(int x, int y);
 	bool IsColliding(int x0, int y0, int width0, int height0,
 					 int x1, int y1, int width1, int height1);
